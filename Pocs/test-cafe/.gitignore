@@ -1,0 +1,22 @@
+# node
+/node_modules
+npm-debug.log
+yarn-error.log
+
+# mac
+.DS_Store
+
+# test outputs
+screenshots
+bundle.zip
+/report
+
+# others
+/dist
+.env
+.env.*
+.vscode/
+.idea/
+dist/
+*.log
+app-data.json

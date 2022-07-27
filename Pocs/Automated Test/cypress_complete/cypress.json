@@ -1,0 +1,10 @@
+{
+  "fixturesFolder": "src/fixtures",
+  "integrationFolder": "src/integration",
+  "pluginsFile": "src/plugins/plugins.ts",
+  "supportFile": "src/support/support.ts",
+  "watchForFileChanges": true,
+  "defaultCommandTimeout": 10000,
+	"pageLoadTimeout": 10000,
+	"requestTimeout": 10000
+}

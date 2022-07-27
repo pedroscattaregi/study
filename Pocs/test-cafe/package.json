@@ -1,0 +1,36 @@
+{
+  "name": "ui-test-framework",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "engines": {
+    "node": ">=10"
+  },
+  "engineStrict": true,
+  "scripts": {
+    "test:chrome": "testcafe chrome ./src/features/*.ts",
+    "test:firefox": "testcafe chrome ./src/features/*.ts",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx ./src",
+    "lint:fix": "eslint --ext .js,.jsx,.ts,.tsx ./src --fix"
+  },
+  "devDependencies": {
+    "@types/node": "~13.7.4",
+    "@typescript-eslint/eslint-plugin": "~2.19.0",
+    "@typescript-eslint/parser": "~2.19.0",
+    "eslint": "~6.8.0",
+    "eslint-plugin-filenames": "^1.3.2",
+    "ts-node": "~8.10.2",
+    "tsconfig-paths": "~3.9.0",
+    "typescript": "~3.9.6"
+  },
+  "dependencies": {
+    "axios": "^0.26.0",
+    "casual": "^1.6.2",
+    "dotenv": "~8.2.0",
+    "module-alias": "~2.2.2",
+    "testcafe": "^1.18.4"
+  },
+  "_moduleAliases": {
+    "@root": "."
+  }
+}

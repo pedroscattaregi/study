@@ -1,0 +1,16 @@
+Started by user [8mha:////4IxH5vz+P0QpFpnmkTIQ1XnjMwW/sNKefun32FMYGAPSAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZu/dLi1CL9xJTczDwA+rnvwMAAAAA=[0mfirst admin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/my-first-job
+[my-first-job] $ /bin/sh -xe /tmp/jenkins3611378996247470130.sh
++ echo ta acontecendo
+ta acontecendo
++ date
++ echo The current date is Tue 20 Jul 2021 01:59:01 PM UTC
+The current date is Tue 20 Jul 2021 01:59:01 PM UTC
++ FIRST_NAME
+/tmp/jenkins3611378996247470130.sh: 6: /tmp/jenkins3611378996247470130.sh: FIRST_NAME: not found
++ LAST_NAME
+/tmp/jenkins3611378996247470130.sh: 6: /tmp/jenkins3611378996247470130.sh: LAST_NAME: not found
++ echo Hello,  
+Hello,  
+Finished: SUCCESS
